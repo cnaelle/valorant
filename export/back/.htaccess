@@ -1,0 +1,32 @@
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# JWT Authentication
+RewriteEngine on
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+# Allow only specific WordPress routes
+RewriteCond %{REQUEST_URI} !^(.*)/wp-json(.*)$
+RewriteCond %{REQUEST_URI} !^(.*)/wp-admin(.*)$
+RewriteCond %{REQUEST_URI} !^(.*)/wp-login(.*)$
+#RewriteCond %{REQUEST_URI} !^(.*)/super-secret-hide-signin(.*)$
+RewriteCond %{REQUEST_URI} !^(.*)/wp-content(.*)$
+RewriteCond %{REQUEST_URI} !^(.*)/wp-includes(.*)$
+#RewriteCond %{REQUEST_URI} /index.php
+RewriteRule (.*) - [R=404,L]
+

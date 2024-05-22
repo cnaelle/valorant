@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "@nuxt/eslint-config"
+  ],
+  "rules": {
+    "no-undef": "off",
+    "no-useless-return": "off"
+  }
+}

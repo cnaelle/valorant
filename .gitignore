@@ -1,0 +1,16 @@
+# Framework
+.env
+project.json
+
+# Back
+back/vendor
+back/wp-content/uploads/*
+
+# Front
+front/node_modules
+front/*.log*
+front/.nuxt
+front/.nitro
+front/.cache
+front/.output
+front/dist

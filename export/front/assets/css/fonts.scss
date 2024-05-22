@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src: url('./../fonts/big_noodle_titling.ttf');
+  format: 'truetype';
+}
+
+@font-face {
+  font-family: 'Valorant';
+  src: url('./../fonts/valorant.ttf');
+  format: 'truetype';
+}
+
+.valorant {
+  font-family: 'Valorant';
+}
+
+body,
+.block-editor-block-list__layout {
+
+  // Put your css here
+  #home,
+  #error404 {
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-display: 'swap';
+  }
+}

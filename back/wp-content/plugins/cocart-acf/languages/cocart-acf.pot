@@ -1,0 +1,287 @@
+# Copyright (c) 2020 Sébastien Dumont
+# This file is distributed under the same license as the CoCart Advanced Custom Fields package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CoCart - Advanced Custom Fields 1.0.0-rc.1\n"
+"Report-Msgid-Bugs-To: https://cocart.xyz/feedback/\n"
+"POT-Creation-Date: 2020-06-02 23:40:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Sébastien Dumont <mailme@sebastiendumont.com>\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: cocart-acf.php:72
+msgid "Cloning this object is forbidden."
+msgstr ""
+
+#: cocart-acf.php:82
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-action-links.php:42
+msgid "Developed By %s"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-action-links.php:42
+msgid "View the developers site"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-action-links.php:45
+msgid "Review %s on CoCart.xyz"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-action-links.php:45
+#: includes/admin/views/html-notice-please-review.php:32
+msgid "Leave a Review"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:177
+msgid "Automatic updates disabled!"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:184
+msgid "Automatic updates enabled!"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:198
+#. translators: Time until the next update.
+msgid "Update scheduled in %s"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:398
+msgid "Unable to return the changelog at this time."
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:563
+msgid "%1$s%3$sThis is the latest stable release%3$s%2$s"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:567
+msgid "%1$s%3$sThis is a beta release%3$s%2$s"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:571
+msgid "%1$s%3$sThis is a pre-release%3$s%2$s"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:580
+msgid ""
+"%1$sThe version of WooCommerce you have installed has not yet been tested "
+"with this release.%1$s"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:656
+msgid "Unable to update!"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:779
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
+"version %4$s details</a>."
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:785
+#: includes/admin/class-cocart-acf-admin-updater.php:798
+#: includes/admin/class-cocart-acf-admin-updater.php:812
+#: includes/admin/class-cocart-acf-admin-updater.php:831
+#. translators: 1: plugin name, 2: version number
+msgid "View %1$s version %2$s details"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:792
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
+"version %4$s details</a>. <em>Automatic update is unavailable for this "
+"plugin.</em>"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:806
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number, 5: update URL, 6: additional link attributes
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
+"version %4$s details</a> or <a href=\"%5$s\" %6$s>update now</a>."
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:819
+#. translators: %s: plugin name
+msgid "Update %s now"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin-updater.php:825
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number 5: Update PHP page URL
+msgid ""
+"There is a new version of %1$s available, but it doesn&#8217;t work with "
+"your version of PHP. <a href=\"%2$s\" %3$s>View version %4$s details</a> or "
+"<a href=\"%5$s\">learn more about updating PHP</a>."
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:127
+#. translators: Number of years
+msgid "%s years"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:129
+msgid "a year"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:135
+msgid "%s months"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:137
+msgid "1 month"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:144
+#. translators: Number of weeks
+msgid "%s weeks"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:146
+msgid "a week"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:153
+#. translators: Number of days
+msgid "%s days"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:155
+msgid "a day"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:162
+#. translators: Number of hours
+msgid "%s hours"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:164
+msgid "an hour"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:171
+#. translators: Number of minutes
+msgid "%s minutes"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:173
+msgid "a minute"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:180
+#. translators: Number of seconds
+msgid "%s seconds"
+msgstr ""
+
+#: includes/admin/class-cocart-acf-admin.php:182
+msgid "a second"
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-products-not-installed.php:19
+#: includes/admin/views/html-notice-please-review.php:23
+#: includes/admin/views/html-notice-required-cocart.php:19
+#: includes/admin/views/html-notice-trying-beta.php:19
+msgid "CoCart, a WooCommerce REST-API extension"
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-products-not-installed.php:23
+msgid "%1$s %2$s requires %3$s to be installed and activated."
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-products-not-installed.php:31
+msgid "Activate %s"
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-products-not-installed.php:35
+msgid ""
+"As you do not have permission to activate a plugin. Please ask a site "
+"administrator to activate %s for you."
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-products-not-installed.php:41
+msgid "Purchase %s"
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-products-not-installed.php:50
+msgid "Turn off the %s %s plugin"
+msgstr ""
+
+#: includes/admin/views/html-notice-please-review.php:27
+msgid "Hi %1$s, are you enjoying %2$s?"
+msgstr ""
+
+#: includes/admin/views/html-notice-please-review.php:28
+msgid ""
+"You have been using %1$s for %2$s now! Mind leaving a review and let me "
+"know know what you think of the plugin? I'd really appreciate it!"
+msgstr ""
+
+#: includes/admin/views/html-notice-please-review.php:33
+msgid "No thank you / I already have"
+msgstr ""
+
+#: includes/admin/views/html-notice-required-cocart.php:23
+msgid "Update Required!"
+msgstr ""
+
+#: includes/admin/views/html-notice-required-cocart.php:24
+msgid "%1$s Advanced Custom Fields requires at least %1$s v%2$s or higher."
+msgstr ""
+
+#: includes/admin/views/html-notice-required-cocart.php:31
+msgid "Update %s"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:23
+msgid "Thanks for trying out this beta/pre-release of %s Advanced Custom Fields!"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:24
+msgid ""
+"If you have any questions or any feedback at all, please let me know. Any "
+"little bit you're willing to share helps."
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:28
+msgid "Give Feedback for %2$s"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:28
+msgid "Give Feedback"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:29
+msgid "Hide this notice and ask me again for feedback in 2 weeks"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:29
+msgid "Ask me again in 2 weeks"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:29
+msgid "Hide this notice forever."
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:29
+msgid "Don't ask me again"
+msgstr ""

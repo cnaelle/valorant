@@ -1,0 +1,8 @@
+.git*
+.rsyncignore
+.env.*
+/back/wp-content/uploads/*
+/back/wp-content/webp-express/*
+/back/robots.txt.*
+/back/.htaccess.*
+/back/db/*
